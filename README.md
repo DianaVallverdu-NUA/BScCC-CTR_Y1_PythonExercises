@@ -32,3 +32,6 @@ In basics we learn how to print and assign different values to python variables.
 | Action | JavaScript Command | Python Command |
 | print / display | `console.log()` | `print()` |
 | create a variable | `let x = <value>` | `x = <value>`|
+| string value | `"string"` or `'string'` | `"string"` or `'string'` | 
+| number value | `<number>` | `<number>` | 
+| boolean value | `true` / `false` | `True` / `False` | 

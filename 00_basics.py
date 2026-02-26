@@ -1,5 +1,5 @@
 # Exercise One
-# Print the string "hello world""
+# Print the string "hello world"
 
 # Exercise Two
 # Create a variable called "name" and assign it your name as a string. Then print the variable.
