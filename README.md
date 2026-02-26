@@ -9,6 +9,7 @@ Some general Python rules that vary from JavaScript are:
 - Python uses `snake_case` as opposed to JavaScript's `cammelCase`
 - Python **does not** use semicolonds at the end of a line -> in fact a semicolon will break the script
 - Comments in Python start with the hash key (`#`) instead of the double forward slash we saw in JavaScript (`//`)
+- There is no `const` variable in Python. This means that all variables can potentially be modified. To try to avoid unwanted errors, you will usuall type the names of constants in all caps, e.g. `THIS_IS_A_CONSTANT`.
 - Python uses indentation instead of curly brackets (`{ }`) to signify scope changes. We will see this in more detail at exercises in file **01** and **02**.
 
 ## Executing a Python script
@@ -173,3 +174,27 @@ Here's a list of key differences and similarities between JS and Python arrays.
 | remove element at position n of the array | `array.splice(n,1)` | `array.pop(n)` |
 | concatenate two arrays | `newArray = arrayOne.concat(arrayTwo)` | `new_array = array_one + array_two` |
 | simple loop through array | `for(let elem of array) {...}` | `for elem in array :` |
+
+## 04_matrixes
+
+Matrixes are arrays of dimension 2, meaning that you may have rows and columns. You may have inadvertendly used matrixes in the past in JavaScript, for example when analysing the colours of an image.
+
+To create a Matrix in Python, you'd create it similarly to what you'd do in JS:
+
+```Python
+matrix = [
+    [<value>, <value>, <value>],
+    [<value>, <value>, <value>],
+    [<value>, <value>, <value>]
+]
+```
+
+You can then access a value of the matrix just like you'd access a value in an array. For example, at position 0, 0, you'd have:
+
+```Python
+value = matrix[0][0]
+```
+
+At the end of the matrixes, you have some challenge exercises to practice some concepts that will be relevant to Machine Learning. You are encouraged to attempt them at your own pace!
+
+### Transposition
