@@ -8,6 +8,7 @@ Some general Python rules that vary from JavaScript are:
 
 - Python uses `snake_case` as opposed to JavaScript's `cammelCase`
 - Python **does not** use semicolonds at the end of a line -> in fact a semicolon will break the script
+- Comments in Python start with the hash key (`#`) instead of the double forward slash we saw in JavaScript (`//`)
 - Python uses indentation instead of curly brackets (`{ }`) to signify scope changes. We will see this in more detail at exercises in file **01** and **02**.
 
 ## Executing a Python script
@@ -30,7 +31,7 @@ python 00_basics.py
 
 ## 00_basics
 
-In basics we learn how to print and assign different values to python variables. 
+In basics we learn how to print and assign different values to python variables.
 Key similarities and differences with JavaScript are listed here:
 
 | Action | JavaScript Command | Python Command |
@@ -84,3 +85,74 @@ let something = "something";
 ```
 
 ## 02_conditionals_and_loops
+
+### Conditionals (Ex 1 - 3)
+
+In Conditionals and Loops we learn the basics of these techniques.
+
+An if / else statement in JS looks like this:
+
+```JS
+if(something_is_true) {
+    console.log("true!");
+} 
+else {
+    console.log("false!");
+}
+```
+
+In Python, the same statement would be:
+
+```Python
+
+if something_is_true :
+    print("true!")
+else :
+    print("false!")
+```
+
+As you can see, Python also uses a colon and indentation to differenciate the scope of the instructions.
+
+Moreover, if statements in Python loose the brackets typically surrounding the condition.
+
+### Conditionals (Ex 4 - )
+
+As expected, loops also use colons and indentation to separate scopes. This is how a while loop compares in each coding language:
+
+JS:
+
+```JS
+let i = 0;
+while(i < 100) {
+    console.log(i);
+    i++; // alternatively, i += 1 or i = i + 1;
+}
+```
+
+Python:
+
+```Python
+i = 0
+while i in range(100) :
+    print(i)
+    i += 1 # alternatively, i = i + 1
+```
+
+This is how a for loop compares:
+
+JS:
+
+```JS
+let i = 0;
+for(let i = 0; i < 100; i++) {
+    console.log(i);
+}
+```
+
+Python:
+
+```Python
+for i in range(100) {
+    print(i)
+}
+```
