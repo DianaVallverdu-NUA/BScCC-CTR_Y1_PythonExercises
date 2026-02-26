@@ -38,3 +38,7 @@ In basics we learn how to print and assign different values to python variables.
 | string value | `"string"` or `'string'` | `"string"` or `'string'` |
 | number value | `<number>` | `<number>` |
 | boolean value | `true` / `false` | `True` / `False` |
+
+## 01_variables_and_functions
+
+## 02_conditionals_and_loops
