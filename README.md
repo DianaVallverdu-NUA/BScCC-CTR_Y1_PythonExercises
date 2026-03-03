@@ -85,6 +85,17 @@ let something = "something";
 }
 ```
 
+Remember, **parameteres** or **arguments** ar the variables that we can give to the function for it to "do something with it". 
+An example function with a parameter `x` would be:
+
+```Python
+def add_3_to_x(x):
+    y = x + 3
+    print(y)
+```
+
+
+
 ## 02_conditionals_and_loops
 
 ### Conditionals (Ex 1 - 3)
