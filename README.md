@@ -86,7 +86,7 @@ let something = "something";
 ```
 
 Remember, **parameteres** or **arguments** ar the variables that we can give to the function for it to "do something with it". 
-An example function with a parameter `x` would be:
+An example function which takes a parameter x and adds three to it would be:
 
 ```Python
 def add_3_to_x(x):
@@ -94,7 +94,13 @@ def add_3_to_x(x):
     print(y)
 ```
 
+And then, you may execute the function like so:
 
+```Python
+add_3_to_x(10)
+```
+
+which would output `13`
 
 ## 02_conditionals_and_loops
 
