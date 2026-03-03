@@ -3,11 +3,13 @@
 # Execute the `greet_world` function to see the output.
 
 # Exercise Two
-# Create a function called `greet_person` that takes a name as an argument and prints "Hello, [name]!"
+# Create a function called `greet_person` that takes a name as a parameter and prints "Hello, <name>!"
+# e.g., executing the function with greet_person("Diana") would result in printing "Hello, Diana!""
 # Execute the `greet_person` function with your name to see the output.
 
 # Exercise Three
-# Create a function called `greet_person_with_age` that takes a name and an age as arguments and prints "Hello, [name]! You are [age] years old."
+# Create a function called `greet_person_with_age` that takes a name and an age as arguments and prints "Hello, <name>! You are <age> years old."
+# e.g., executing the function with greet_person_with_age("Diana", 30) would result in printing "Hello, Diana! Your are 30 years old."
 # Execute it with your name and age to see the output.
 
 # Exercise Four
