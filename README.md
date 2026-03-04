@@ -170,9 +170,9 @@ for(let i = 0; i < 100; i++) {
 Python:
 
 ```Python
-for i in range(100) {
+for i in range(100):
     print(i)
-}
+
 ```
 
 ## 03_arrays
